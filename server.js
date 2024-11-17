@@ -13,6 +13,7 @@ const connectDB = async () => {
 
     app.listen(PORT, () => {
       console.log(`Server is running. Use our API on port: ${PORT}`);
+      console.log(`Swagger UI available at http://localhost:${PORT}/api-docs`);
     });
   } catch (error) {
     console.error("MongoDB connection failed:", error.message);

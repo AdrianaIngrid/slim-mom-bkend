@@ -20,7 +20,7 @@ passport.use(
       console.log("User authenticated:", user.email);
       return done(null, user); // Returnează utilizatorul găsit
     } catch (error) {
-      console.error("Error in JWT Strategy:", err.message);
+      console.error("Error in JWT Strategy:", error.message);
       return done(error, false);
     }
   })
