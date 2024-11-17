@@ -1,0 +1,29 @@
+# Modulele Node.js (instalate cu npm)
+node_modules/
+
+# Fișiere temporare și loguri
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Fișierele de mediu
+.env
+
+# Fișiere generate de sistem
+.DS_Store
+Thumbs.db
+
+# Build-uri și output-uri
+/dist/
+/build/
+
+# Cache-uri și alte directoare temporare
+.cache/
+coverage/
+
+# Fișierele generate de editori de text sau IDE-uri
+.vscode/
+.idea/
+*.swp
+*.swo
